@@ -393,71 +393,27 @@ function App() {
                 <span>continúa.</span>
               </h2>
               <p>
-                Repasá lo aprendido con el video completo de la muestra o llevá el resumen con vos.
+                Repasá lo aprendido con el video completo y también aprende acerca de los SSD.
               </p>
               <div className="resource-buttons">
-                <button className="button button-primary">
+                <a href='https://youtu.be/cuGKjwwqgQk?si=gJk44cbR6ZdXuoE3' className="button button-primary">
                   <Play size={16} fill="currentColor" /> Ver video
-                </button>
-                <button className="button button-outline">
+                </a>
+                <a href='/documents/elViajeDeTusDatos.pdf' download="folleto.pdf" className="button button-outline">
                   <Download size={16} /> Descargar PDF
-                </button>
+                </a>
               </div>
             </div>
             <div className="video-card">
               <div className="video-screen">
-                <div className="video-scanlines" />
-                <button className="video-play">
-                  <Play size={23} fill="currentColor" />
-                </button>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cuGKjwwqgQk?si=ZKEE6DPP892iUiwT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+  
                 <span className="video-time">05:55</span>
                 <span className="video-label">HDD LAB / EXPOSICIÓN</span>
-              </div>
+                </iframe>
+                </div>
               <div className="video-meta">
                 <span>
-                  <BookOpen size={14} /> Guion completo de la exposición
-                </span>
-                <span>HD</span>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-
-        <section id="agradecimientos" className="resources dark-panel">
-          <div className="section-wrap resources-grid">
-            <div>
-              <div className="section-kicker">07 / MUCHAS GRACIAS </div>
-              <h2>
-                Gracias por ser parte de esta
-                <br />
-                <span>Exposición .</span>
-              </h2>
-              <p>
-                Repasá lo aprendido con el video completo de la muestra o llevá el resumen con vos.
-              </p>
-              <div className="resource-buttons">
-                <button className="button button-primary">
-                  <Play size={16} fill="currentColor" /> Ver video
-                </button>
-                <button className="button button-outline">
-                  <Download size={16} /> Descargar PDF
-                </button>
-              </div>
-            </div>
-            <div className="video-card">
-              <div className="video-screen">
-                <div className="video-scanlines" />
-                <button className="video-play">
-                  <Play size={23} fill="currentColor" />
-                </button>
-                <span className="video-time">05:55</span>
-                <span className="video-label">HDD LAB / EXPOSICIÓN</span>
-              </div>
-              <div className="video-meta">
-                <span>
-                  <BookOpen size={14} /> Guion completo de la exposición
                 </span>
                 <span>HD</span>
               </div>
