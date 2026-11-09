@@ -1,0 +1,30 @@
+.imgDisk{
+    height: 15rem;
+    width: 22.5rem;
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hdd-preview{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.comp-normal {
+  opacity: 0.45;
+  transition: opacity 0.4s, filter 0.4s;
+}
+.comp-highlight {
+  opacity: 1;
+  filter: drop-shadow(0 0 12px #41cad9);
+  transition: opacity 0.4s, filter 0.4s;
+}
+.hdd-svg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
